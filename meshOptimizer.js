@@ -1,5 +1,5 @@
 import { MeshoptSimplifier as y } from "https://cdn.jsdelivr.net/npm/meshoptimizer@0.23.0/+esm";
-import { BufferAttribute as h } from "three";
+import { BufferAttribute as h } from "https://cdn.jsdelivr.net/npm/three/build/three.module.js";
 async function A(n, e, t) {
   await y.ready;
   const r = [];
