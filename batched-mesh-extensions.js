@@ -1,6 +1,6 @@
 import { BVH as et, HybridBuilder as nt, WebGLCoordinateSystem as st, WebGPUCoordinateSystem as ot, vec3ToArray as G, box3ToArray as W } from "https://cdn.jsdelivr.net/npm/bvh.js@0.0.13/build/index.js";
 import { Box3 as K, Matrix4 as D, FloatType as it, UnsignedIntType as rt, IntType as at, DataTexture as ct, WebGLUtils as ht, ColorManagement as E, NoColorSpace as V, RGBAFormat as lt, RGBAIntegerFormat as ut, RGFormat as ft, RGIntegerFormat as mt, RedFormat as dt, RedIntegerFormat as gt, Frustum as pt, Vector3 as T, Sphere as X, Mesh as xt, Ray as yt, BatchedMesh as d } from "https://cdn.jsdelivr.net/npm/three/build/three.module.js";
-import { radixSort as _t } from "https://cdn.jsdelivr.net/npm/three/build/three.module.js/addons/utils/SortUtils.js";
+import { radixSort as _t } from "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/utils/SortUtils.js";
 class It {
   /**
    * @param target The target `BatchedMesh`.
